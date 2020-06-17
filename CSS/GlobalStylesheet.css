@@ -36,7 +36,7 @@ input {
 /* Noscript warning boxes */
 .noScriptWarningBox {
 	position: sticky;
-	top: 1em; /* Conforms to the overall margin of the boy element defined in the body {}*/
+	top: 1em; /* Conforms to the overall margin of the body element defined in the body {}*/
 	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3); /* offset-x | offset-y | blur-radius | spread-radius | color */
 	background-color: rgb(255, 70, 70);
 	padding: .5em;
