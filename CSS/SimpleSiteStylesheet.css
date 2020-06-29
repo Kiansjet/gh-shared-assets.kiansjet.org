@@ -3,11 +3,11 @@
 
 html {
 	font-family: "Jost", sans-serif;
+	color: rgb(50, 50, 50);
 }
 
 body {
-	margin: 2em;
-	color: rgb(50, 50, 50);
+	margin: 1em;
 	width: fit-content;
 }
 
