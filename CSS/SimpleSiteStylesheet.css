@@ -1,19 +1,15 @@
-/* Google Fonts - Jost */
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap");
+/* Font */
+@import url("/CSS/Fonts/Jost.css");
 
-html {
-	font-family: "Jost", sans-serif;
-	color: rgb(50, 50, 50);
-}
+/* Underlined Input */
+@import url("/CSS/UnderlinedInput.css");
+
+/* NoScript Warning Element */
+@import url("/CSS/NoScriptWarning.css");
 
 body {
 	margin: 1em;
 	width: fit-content;
-}
-
-h1, h2, h3, h4 {
-	font-weight: 500;
-	margin-bottom: .3em;
 }
 
 a {
@@ -22,32 +18,5 @@ a {
 }
 
 a:hover {
-	text-decoration-line: underline;
-}
-
-input {
-	outline: none;
-	border: none;
-
-	padding: .5em;
-	width: -webkit-fill-available;
-}
-
-/* Noscript warning boxes */
-.noScriptWarningBox {
-	position: sticky;
-	top: 1em; /* Conforms to the overall margin of the body element defined in the body {}*/
-	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3); /* offset-x | offset-y | blur-radius | spread-radius | color */
-	background-color: rgb(255, 70, 70);
-	padding: .5em;
-}
-
-.noScriptWarningBox h4 {
-	margin: 0;
-	color: white;
-}
-
-.noScriptWarningBox a {
-	color: white;
 	text-decoration-line: underline;
 }

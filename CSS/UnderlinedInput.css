@@ -1,0 +1,13 @@
+input {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid gray;
+	padding: .5em;
+	width: -webkit-fill-available;
+
+	transition: background-color .2s;
+}
+
+input:hover, input:focus {
+	background-color: rgba(0, 0, 0, .1);
+}
