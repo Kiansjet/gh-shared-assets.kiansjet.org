@@ -1,7 +1,10 @@
 /* Font */
 @import url("/CSS/Fonts/Jost.css");
 
-/* Underlined Input */
+/* Lighter Blue Anchor Elements */
+@import url("/CSS/LighterBlueAnchors.css");
+
+/* Underlined Input Elements */
 @import url("/CSS/UnderlinedInput.css");
 
 /* NoScript Warning Element */
